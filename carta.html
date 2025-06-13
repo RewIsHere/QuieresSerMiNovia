@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para mi amor 💖</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #ffe0ec, #fddde6);
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .letter-container {
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        width: 90%;
+        text-align: center;
+        animation: fadeInUp 1.2s ease-out;
+      }
+
+      .letter-container h1 {
+        font-family: "Great Vibes", cursive;
+        font-size: 3rem;
+        color: #ff4d6d;
+        margin-bottom: 20px;
+        animation: fadeIn 2s ease-out;
+      }
+
+      .letter-container p {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: #333;
+        animation: fadeIn 3s ease-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .heart {
+        font-size: 2rem;
+        color: #ff4d6d;
+        animation: pulse 1.5s infinite;
+        margin-top: 20px;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="letter-container">
+      <h1>Para mi amorcito 💌</h1>
+      <p>
+        Hola mi vida, solo quería decirte lo mucho que te amo y lo agradecido
+        que estoy de tenerte a mi lado. Eres la razón por la que sonrío cada
+        día, y cada momento contigo es un regalo que atesoro. Gracias por ser
+        tan maravillosa, dulce y especial. Esta cartita es solo una pequeña
+        forma de recordarte lo mucho que significas para mí.
+      </p>
+      <div class="heart">❤️</div>
+    </div>
+  </body>
+</html>
